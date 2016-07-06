@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(window).resize();
 });
 $(window).resize(function() {
-    $('#cover-picture').height($('#cover-picture').children('img').height());
+    $('#cover-picture').height($(this).width() * 251 / 720);
     if ($(this).width() <= 1440 && zoom != 1) {
         $.each($('img'), function (k, v) {
             $(this).attr('src', $(this).data('img') + '.png');
