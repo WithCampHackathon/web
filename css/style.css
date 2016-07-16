@@ -16,3 +16,6 @@ li .menu-item { margin-left: 30px }
 .context .context-content .content { color: #9b9b9b; line-height: 1.79 }
 .context .context-content .content-subject { font-size: 23px; display: block; color: #4a4a4a; margin-bottom: 10px }
 .context .context-content img { width: calc(100% / 3); float: left }
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+}
